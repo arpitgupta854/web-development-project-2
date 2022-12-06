@@ -1,0 +1,78 @@
+body,html{
+    height: 100%; 
+    margin:0; 
+}
+
+.img{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100%; 
+    width: 1699px;
+    position: relative;
+    
+}
+.classone{
+    position: absolute;
+    height: 200px;
+    width: 250px;
+    top: 0px;
+  left: 16px;
+
+   
+
+
+}
+.container{
+   
+    display:absolute;
+    margin: 5px auto ;
+    width: 50%;
+ font-style: italic;
+    font-style: bold;
+    
+}
+
+
+.navbar li{
+    display: inline-block;
+    font: size 15px;
+    
+
+ } 
+.navbar li a{
+    color: rgb(14, 13, 14);
+    text-decoration: none;
+    padding: 40px 30px;
+    font-size: 25px;
+    
+    
+}
+.navbar li a:hover,.navbar li a.active{
+text-decoration: underline;
+color: rgb(208, 32, 32);
+font-size: 35px;
+}
+.but{
+    color: rgb(246, 68, 19);
+    display: inline block;
+    position: absolute;
+    right: 90px;
+    top: 0px;
+    height: 25px;
+    width: 59px;
+    font-size: 25px;
+    background-color: rgb(247, 168, 9);
+}
+/* .but:hover{
+    text-decoration: underline;
+    color: black;
+    font-size: 35px;
+} */
+.oursweets{
+    display: inline-block;
+    position: absolute; 
+    nav-down: 2300px;
+    
+}
