@@ -4,7 +4,7 @@ body,html{
 }
 
 .img{
-    background-image: url("background.jpg");
+    background-image: url("background2.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -29,8 +29,7 @@ body,html{
     display:absolute;
     margin: 5px auto ;
     width: 50%;
- font-style: italic;
-    font-style: bold;
+    font-style:"Baloo Bhai",cursive ;
     
 }
 
@@ -38,7 +37,8 @@ body,html{
 .navbar li{
     display: inline-block;
     font: size 15px;
-    
+    font-style:"Baloo Bhai",cursive;
+    cursor: pointer;
 
  } 
 .navbar li a{
@@ -46,16 +46,19 @@ body,html{
     text-decoration: none;
     padding: 40px 30px;
     font-size: 25px;
-    
+    background-color:white;
+    border-radius: 23px;
+    font-style: "Baloo Bhai",cursive;
     
 }
 .navbar li a:hover,.navbar li a.active{
 text-decoration: underline;
 color: rgb(208, 32, 32);
 font-size: 35px;
+
 }
 .but{
-    color: rgb(246, 68, 19);
+    color: black;
     display: inline block;
     position: absolute;
     right: 90px;
@@ -63,8 +66,13 @@ font-size: 35px;
     height: 25px;
     width: 59px;
     font-size: 25px;
-    background-color: rgb(247, 168, 9);
 }
+    .but:hover{
+    font-size:28px;
+
+    }
+    
+
 /* .but:hover{
     text-decoration: underline;
     color: black;
@@ -75,4 +83,45 @@ font-size: 35px;
     position: absolute; 
     nav-down: 2300px;
     
+}
+
+.primary{
+    text-align: center;
+    color: blue;
+    font-size: 55px;
+    margin: 0px;
+    padding: 0px;
+
+}
+.anu{
+    text-align: center;
+    color: rgb(29, 9, 252);
+    font-size: 25px;
+    margin:0px;
+    padding:0px;
+}
+.button{
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 23px;
+    margin: 17px;
+    cursor: pointer;
+    display: inline;
+    width: 12px;
+}
+.button:hover{
+    font-size: 34px;
+
+}
+.home{
+    text-align: center;
+    display: inline;
+    margin-bottom: 25px;
+    padding: 145px;
+}
+.arun{
+    padding: 100px;
+}
+.primary{
+    font-size: 30px;
 }
