@@ -13,6 +13,10 @@ body,html{
     position: relative;
     
 }
+.suyash{
+    font-size: 38px;
+color: red;
+}
 .classone{
     position: absolute;
     height: 200px;
@@ -125,3 +129,35 @@ font-size: 35px;
 .primary{
     font-size: 30px;
 }
+.anuj{
+    text-align: center;
+    border-radius: 23px;
+background-color: red;
+background-position: 0%;
+
+}
+.anshu{
+    display: inline;
+    height: 200px;
+}
+.coloum1{
+    height:450px;
+    width:600px;
+}
+  .client{
+    background-color: red;
+    text-align: center;
+  }
+  .contact{
+    background-color: red;
+    text-align: center;
+  }
+  .client1{
+    padding: 12px;
+  }
+  .contact1{
+    padding: 12px;
+  }
+  .ash{
+    text-align: center;
+  }
